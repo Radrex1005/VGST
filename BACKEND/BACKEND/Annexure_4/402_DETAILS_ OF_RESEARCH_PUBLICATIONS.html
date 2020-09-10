@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Annexure-IV</title>
+        <link rel="stylesheet" href="css/VGST.css">
+    </head>
+    <body>
+        <h1>Annexure-IV</h1>
+        <h2>A.GENERAL INFORMATION</h2>
+        <form id="ann402details">
+            
+        <h4>
+            DETAILS OF RESEARCH PUBLICATIONS
+        </h4>
+        <table >
+              <thead>
+                <tr>
+                    <th>Sr. No</th>
+                    <th>DETAILS</th>
+                    <th>ENTER THE DETAILS</th>
+                    </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <td>1.</td>
+                  <td>
+                    Broad Areas of Research
+                  </td>
+                  <td>
+                      <input id="BroadAreas" type="text"></td></input>
+                  </td>
+              </tr>
+              <tr>
+                  <td>2.</td>
+                  <td>
+                    Focused Area of Research 
+                  </td>
+                  <td>
+                      <input id="FocusedArea" type="text"></input>
+                  </td>
+              </tr>
+             <tr>
+                 <td>
+                     3.
+                 </td>
+                 <td>
+                    Any other information of academic / technical in nature about the research publications that you have listed in item no.4 in support of the application/ nomination (limit: 100 words)
+                 </td>
+                 <td>
+                     <textarea name="extrapub" id="extrapub" maxlength="100"></textarea>
+                 </td>
+             </tr>
+             
+             </tbody>
+             
+        </table>
+        <button class="submit" name="submit" id="submit">Submit</button><br>
+            </form><br>
+    <!--submit buttons from here form doesnot support this -->
+            <table>
+             <tbody>
+                <tr>
+                    <td>
+                        4.
+                    </td>
+                    <td>
+                       Provide details if you have generated any patents, products out of your research publications.
+                    </td>
+                    <td>
+                       <label for="patent">Select file:</label>
+                       <input type="file" id="patent" name="patent" accept="image/*">
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        5.
+                    </td>
+                    <td>
+                      Total No. of Publications
+                    </td>
+                    <td>
+                        <input id="NoofPublications" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                      (i) Journal Publications listed in SCImago Journal Rank (Rating … Q1 OR Q2 OR Q3 OR Q4). Specify rating referring to the website:    <a href="https://www.scimagojr.com/journalsearch.php">https://www.scimagojr.com/journalsearch.php</a>
+                    </td>
+                    <td>
+                      <label for="listed">Select File:</label>
+                      <input id="Journal1" type="file" id="listed" name="listed" accept="image/*">
+                     
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                     (ii) Journal publications -Not listed in SCImago 
+                      Journal rating rank
+                    </td>
+                    <td>
+                      <label for="notlisted">Select File:</label>
+                      <input id="Journal02" type="file" id="notlisted" name="notlisted" accept="image/*">
+                     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                      (iii) Google Impact factor of journal 
+                    </td>
+                    <td>
+                        <label for="gimpact">Select file:</label>
+                        <input id="GoogleImpact" type="file" id="gimpact" name="gimapct" accept="image/*">
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    (iv) Conference Presentations
+                    </td>
+                    <td>
+                      <label for="conpre">Select file:</label>
+                      <input id="Conference" type="file" id="conpre" name="conpre" accept="image/*">
+                     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        6.
+                    </td>
+                    <td>Publications/periodicals etc. where in the research 
+                      work has been referred to or referenced.  Please give citation index of the contribution, using google scholar data.
+                  </td>
+                  <td>
+                      <label for="gscholar">Select file:</label>
+                      <input id="Publications" type="file" id="gscholar" name="gscholar" accept="image/*">
+                     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        7.
+                    </td>
+                    <td>
+                        Enclose a complete list of publications giving details 
+                        of reputed Journals in which they are published 
+                        (Please refer to the web, mention the journal name, index)
+                    </td>
+                    <td>
+                      <label for="compub">Select file:</label>
+                      <input id="Encloseacomplete" type="file" id="compub" name="compub" accept="image/*">
+                      
+                   </td>
+               </tr>
+  
+            </tbody>
+        </table><br><br>
+
+        <div class="sep"><input id="PassportsizePhotograph"class="photo" type="file">Passport size Photograph<br><br><br></input>Name & Signature Of The Applicant</div>
+        <div id="edate" class="edate">Date:<input class="da" type="date"></input></div>
+        <div id="PhotographoftheSignature" class="sepe"><input class="photo" type="file">Photograph of the Signature<br><br><br></input>Name & Signature of The Head <br>of the Institution (with Seal)</div>
+          
+    
+
+        
+               <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+
+            <script src="/Annexure_4/js/Annexure_402.js"></script>
+    </body>
+</html>

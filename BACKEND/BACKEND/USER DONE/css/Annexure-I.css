@@ -1,0 +1,75 @@
+body
+{
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 0.5vw;
+}
+header
+{
+    background-color:#96beda;
+    text-transform: uppercase;
+    border-radius: 1vw;
+    font-size: 1vw;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 2vw;
+}
+h4
+{
+    background-color:  #7e7e7e;
+    color: #ffffff;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+section
+{
+    font-size: 1.5vw;
+    border-radius: 1vw;
+}
+div.ann1
+{ 
+    background: -webkit-radial-gradient(rgba(192, 192, 192, 0.514) 10%, #ffffff 100%);
+    border-radius: 1vw 1vw 0vw 0vw;
+    padding: 0 0.5vw 0 0.5vw;
+}
+button.next
+{
+    border:1;
+    color: #3a3a3a;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1vw;
+    cursor: pointer;
+    -moz-box-align: right;
+    border-color: #7e7e7e;
+    border-radius: 1vw;
+  }
+button.next:hover
+{
+    border:1;
+    color: #1b1b1b;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 1vw;
+    cursor: pointer;
+    -moz-box-align: right;
+    border-color: #3d3d3d;
+    border-radius: 1.5vw;
+    transition: ease-out 0.5s;
+  }
+
+.button
+  {
+      margin-left: 44vw;
+  }

@@ -1,0 +1,120 @@
+body {
+    font-family: "Open Sans", helvetica, arial;
+    text-align: justify center;
+    }
+   table{
+    padding: 2px;
+    margin: auto;
+    width: "100%";
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 14px;
+    }
+
+    .end{
+margin-left: 35vw;
+    }
+    .submit {
+       display: inline;
+        margin: auto;
+        font-size: 1vw;
+        color: #fff;
+        margin-left: 1vw;
+        border-radius: 1vw;
+        background-color: rgb(16, 37, 10);
+        padding: 1vw;
+        font-weight: bolder;
+        border-color: black;
+    }
+   table tr {
+    padding: 4px;
+    height: 40px;
+    }
+   table th {
+    padding: 4px;
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;    
+   }
+   table td, th {
+    padding: 6px 6px 6px 10px;
+    border: 1px solid #ccc;
+   }
+   table tr:nth-of-type(even) {
+    background: #eee;
+   }
+    
+   .css-serial {
+    counter-reset: serial-number;
+   }
+   .css-serial td:first-child:before {
+    counter-increment: serial-number;
+    content: counter(serial-number);
+   }
+ 
+
+  h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+
+.sep{
+    display: inline-block;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 15vw;
+    height: 14vw;
+    margin-left: 21vw;
+    border-radius: 1vw;
+  }
+  .sepe{
+    display: inline-block;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 15vw;
+    height: 14vw;
+    margin-left: 6vw;
+    border-radius: 1vw;
+  }
+  .da{
+    font-size: 1vw;
+  }
+  .edate{
+    display: inline-block;
+    font-size: 1vw;
+    margin-left: 5vw;
+  }
+  .d{
+    margin-left: 60vw;
+  }
+ .photo{
+    padding:4vw 0 0 1vw;
+    font-size: 0.8vw;
+  }
+  p{
+  margin-left:20%;
+  float:left;
+  display:block;
+  }
+
+
+

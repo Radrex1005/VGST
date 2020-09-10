@@ -1,0 +1,64 @@
+body
+{
+    background-color: #D4D8D8;
+}
+header
+{
+    background-color:#d5f4e6;
+    text-transform: uppercase;
+}
+section
+{
+    background-color: #D4D8D8 ;
+}
+h1{
+    text-align: center;
+}
+h4,h3
+{
+    background-color:  #618685;
+    color: #fefbd8;
+}
+div.part1
+{
+    background-color:#80ced6;
+    display: block;
+
+}
+div.part2
+{
+    background-color:#d5f4e6;
+    display: block;
+}
+td,th
+{
+    border: 1px solid #618685 ;
+}
+table.tab
+{
+    border: 2px solid #618685;
+    border-color: #618685;
+    height: 50%;
+    width: auto;
+    padding: 2px;
+    border-collapse:collapse;
+    font-size: 14px;
+}
+button 
+{
+    border:1;
+    color: #618685;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -moz-box-align: right;
+    border-color: #618685;
+  }
+  div.button
+  {
+      float: center;
+  }

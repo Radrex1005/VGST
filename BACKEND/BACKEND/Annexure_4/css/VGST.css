@@ -1,0 +1,167 @@
+body {
+  font-family: "Open Sans", helvetica, arial;
+  text-align: justify center;
+  background: -webkit-radial-gradient(rgb(59, 59, 216) 20%, #ffffff 100%);   
+   margin: 1vw;
+  border-radius: 1vw;
+  padding: 3vw;
+    }
+   table{
+    padding: 1vw;
+    margin: auto;
+    width: "100%";
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    }
+
+    .end{
+margin-left: 35vw;
+    }
+    .wrapper {
+      text-align: center;
+  }
+    
+    .submit {
+       display: inline;
+        margin: auto;
+        font-size: 1vw;
+        color: #fff;
+        margin-left: 1vw;
+        border-radius: 1vw;
+        background-color: rgb(16, 37, 10);
+        padding: 1vw;
+        font-weight: bolder;
+        border-color: black;
+    }
+   table tr {
+    padding: 4px;
+    }
+   table th {
+    padding: 1vw;
+    background: rgb(86, 93, 160);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5vw;     
+   }
+   table td, th {
+    padding: 1vw 1vw 1vw 1vw;
+    border: 0.1vw solid  rgb(236, 237, 248);
+    font-size: 1.5vw;
+   }
+   table tr:nth-of-type(even) {
+    background: #eee;
+   }
+    
+   .css-serial {
+    counter-reset: serial-number;
+   }
+   .css-serial td:first-child:before {
+    counter-increment: serial-number;
+    content: counter(serial-number);
+   }
+ 
+
+  h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+
+.sep{
+    display: inline-block;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 15vw;
+    height: 14vw;
+    margin-left: 21vw;
+    border-radius: 1vw;
+  }
+  .sepe{
+    display: inline-block;
+    border: solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 15vw;
+    height: 14vw;
+    margin-left: 6vw;
+    border-radius: 1vw;
+  }
+  .da{
+    font-size: 1vw;
+  }
+  .edate{
+    display: inline-block;
+    font-size: 1vw;
+    margin-left: 5vw;
+  }
+  .d{
+    margin-left: 60vw;
+  }
+ .photo{
+    padding:4vw 0 0 1vw;
+    font-size: 0.8vw;
+  }
+  p{
+  margin-left:20%;
+  float:left;
+  display:block;
+  }
+
+
+  
+.change{
+        
+  width: 10vw;
+  padding: 0.5vw;
+  font-size: 1.5vw;
+  background-color: rgb(105, 106, 168);
+  color: #fff;
+  border: #ccc;
+  border-radius: 0.5vw;
+  margin-left: 23vw;
+  margin-top: 1.5vw;
+}
+.submit {
+padding: 0.5vw;
+margin: 1.5vw 0 0 40.5vw;
+font-size: 1.5vw;
+background-color: rgb(80, 182, 67);
+border: #ccc;
+border-radius: 0.5vw;
+}
+@media only screen and (max-width: 1080px) {
+
+table td,th {
+padding: 1vw 1vw 1vw 1vw;
+border: 1px solid rgb(255, 255, 255);
+font-size: 2.5vw;
+width: 50vw;
+}
+table .unique{
+width: 1vw;
+}
+}
+.end{
+margin-left: 35vw;
+}
+
+
+
+
